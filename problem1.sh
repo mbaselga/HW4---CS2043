@@ -1,0 +1,1 @@
+awk 'BEGIN{srand()}{print rand(),$0}' log.txt | sort -n | cut -d ' ' -f2-
